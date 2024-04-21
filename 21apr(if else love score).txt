@@ -1,0 +1,9 @@
+prompt ("what is your name");
+prompt ("what is their name");
+var lovescore = Math.random() * 100;
+lovescore = Math.floor(lovescore)+1;
+if (lovescore > 50){
+    alert("this is your love score" + lovescore +"% you both are love each other");
+} else {
+    alert("this is your love score" + lovescore +"% you are not love each other");
+}
